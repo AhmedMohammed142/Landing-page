@@ -1,0 +1,461 @@
+@font-face {
+  font-family: PoppinsExtraBold;
+  src: url(../font/Poppins-ExtraBold.otf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../font/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../font/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../font/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-firstsection {
+  background: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar-toggler {
+  background-color: #ffffff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-firstsection .mainnav .container .navbar-brand {
+  font-family: PoppinsExtraBold;
+  font-size: 2.5em;
+  color: #ffffff;
+}
+.nav-firstsection .section-download .container .row .col h1 {
+  font-family: RobotoBold;
+  font-size: 5.125rem;
+  color: #ffffff;
+}
+.nav-firstsection .section-download .container .row .col p {
+  font-family: Roboto-Regular;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+.nav-firstsection .section-download .container .row .col a {
+  text-decoration: none;
+}
+.nav-firstsection .section-download .container .row .col span {
+  padding-left: 2rem;
+}
+.nav-firstsection .section-download .container .row .col .btns .btn-download {
+  font-family: Roboto-Medium;
+  font-size: 1.5rem;
+  color: #ff4363;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+.nav-firstsection
+  .section-download
+  .container
+  .row
+  .col
+  .btns
+  .btn-download:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+.nav-firstsection
+  .section-download
+  .container
+  .row
+  .col
+  .btns
+  .btn-download:focus {
+  background-color: #6610f2;
+  color: #ffffff;
+}
+.nav-firstsection
+  .section-download
+  .container
+  .row
+  .col
+  .btns
+  .btn-download:active {
+  background-color: #6f42c1;
+  color: #ffffff;
+}
+.nav-firstsection .section-download .container .row .col .btns .btn-watchvideo {
+  font-family: Roboto-Medium;
+  font-size: 1.125rem;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.nav-firstsection
+  .section-download
+  .container
+  .row
+  .col
+  .btns
+  .btn-watchvideo:hover {
+  background-color: #d63384;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 40px;
+}
+.nav-firstsection
+  .section-download
+  .container
+  .row
+  .col
+  .btns
+  .btn-watchvideo:focus {
+  border-radius: 10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 15px 40px;
+}
+.nav-firstsection
+  .section-download
+  .container
+  .row
+  .col
+  .btns
+  .btn-watchvideo:active {
+  background-color: #fd7e14;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 40px;
+}
+.section-boxes .container .row .col {
+  padding: 1em 1em;
+  box-shadow: 20px 20px 50px rgb(183 183 183);
+  border: none;
+}
+.section-boxes .container .row .col .icon .awesome-icon {
+  background-color: #fff4f5;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.section-boxes .container .row .col .icon .edit-icon {
+  background-color: #f5f4ff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.section-boxes .container .row .col .icon .secured-icon {
+  background-color: #fff6f3;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.section-boxes .container .row .col .title h1 {
+  font-family: PoppinsSemiBold;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.section-boxes .container .row .col .description p {
+  font-family: PoppinsRegular;
+  font-size: 1rem;
+  color: #666666;
+}
+.section-designed-perfect .container .row .col .hand-img {
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-direction: normal;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  50% {
+    top: 0px;
+    bottom: 70px;
+  }
+  100% {
+    top: 70px;
+    bottom: 0px;
+  }
+}
+.section-designed-perfect .container .row .col .icons .img-icons {
+  background-color: #fff4f5;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.section-designed-perfect .container .row .col .title-designed-perfect h1 {
+  font-family: RobotoBold;
+  font-size: 3.75rem;
+  color: #222222;
+}
+.section-designed-perfect .container .row .col .description-designed-perfect p {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #666666;
+}
+.section-designed-perfect
+  .container
+  .row
+  .col
+  .points-designed-perfect
+  li
+  .point
+  span {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #222222;
+}
+.section-designed-perfect .container .row .col .btn {
+  margin-top: 2rem;
+}
+.section-designed-perfect .container .row .col .btn a {
+  text-decoration: none;
+  font-family: Roboto-Medium;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #ff4363;
+  border-radius: 10px;
+  padding: 13px 17px;
+}
+.section-designed-perfect .container .row .col .btn a:hover {
+  color: #ffffff;
+  background-color: #ffc107;
+}
+.section-designed-perfect .container .row .col .btn a:focus {
+  color: #ffffff;
+  background-color: #198754;
+}
+.section-designed-perfect .container .row .col .btn a:active {
+  color: #ffffff;
+  background-color: #20c997;
+}
+.section-appfeatures .container .col .icons img {
+  background-color: #fff4f5;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.section-appfeatures .container .col .title-appfeatures h1 {
+  font-family: RobotoBold;
+  font-size: 3.75rem;
+  color: #222222;
+}
+.section-appfeatures .container .col .description-appfeatures p {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #666666;
+}
+.section-appfeatures .container .col .three-boxes .box .icon-title span {
+  display: flex;
+  align-items: center;
+}
+.section-appfeatures
+  .container
+  .col
+  .three-boxes
+  .box
+  .icon-title
+  span
+  .notifications-icon {
+  background-color: #fff4f5;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.section-appfeatures
+  .container
+  .col
+  .three-boxes
+  .box
+  .icon-title
+  span
+  .user-icon {
+  background-color: #f5f4ff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.section-appfeatures
+  .container
+  .col
+  .three-boxes
+  .box
+  .icon-title
+  span
+  .like-icon {
+  background-color: #fff6f3;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.section-appfeatures .container .col .three-boxes .box .icon-title span h1 {
+  font-family: PoppinsSemiBold;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.section-appfeatures .container .col .three-boxes .box .description-icon p {
+  font-family: PoppinsRegular;
+  font-size: 1rem;
+  color: #666666;
+}
+.section-getyourapp {
+  background: url(../img/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-getyourapp .container .row .col .title h1 {
+  font-family: RobotoBold;
+  font-size: 3.75rem;
+  color: #ffffff;
+}
+.section-getyourapp .container .row .col .description p {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+.section-getyourapp .container .row .col .btn a {
+  text-decoration: none;
+  font-family: Roboto-Medium;
+  font-size: 1.5rem;
+  color: #ff4363;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+.section-getyourapp .container .row .col .btn a:hover {
+  color: #ffffff;
+  background-color: #0dcaf0;
+}
+.section-getyourapp .container .row .col .btn a:focus {
+  color: #ffffff;
+  background-color: #0d6efd;
+}
+.section-getyourapp .container .row .col .btn a:active {
+  color: #ffffff;
+  background-color: #6610f2;
+}
+.section-qestion .container .row .col .title-question h1 {
+  font-family: RobotoBold;
+  font-size: 3.75rem;
+  color: #222222;
+}
+.section-qestion .container .row .col .description p {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #666666;
+}
+.section-qestion .container .row .col .questions-text h2 {
+  font-family: PoppinsSemiBold;
+  font-size: 1.5rem;
+  color: #ff7588;
+}
+.section-qestion .container .row .col .answer-text p {
+  font-family: PoppinsRegular;
+  font-size: 1rem;
+  color: #666666;
+}
+.carousel-indicators {
+  top: 13rem;
+}
+.carousel-inner .fcarousel {
+  background-color: #ff4363;
+  height: 15rem;
+}
+.carousel-inner .scarousel {
+  background-color: #6f42c1;
+  height: 15rem;
+}
+.carousel-inner .thcarousel {
+  background-color: #0dcaf0;
+  height: 15rem;
+}
+.carousel-control-prev {
+  left: -3rem;
+}
+.carousel-control-next {
+  right: -3rem;
+}
+.carusel-items .container .top-row p {
+  font-family: RobotoBold;
+  font-size: 3.75rem;
+  color: #ffffff;
+}
+.carusel-items .container .bottom-row p {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+.section-still-not-lucky .container .title h1 {
+  font-family: RobotoBold;
+  font-size: 3.76rem;
+  color: #222222;
+}
+.section-still-not-lucky .container .description p {
+  font-family: PoppinsRegular;
+  font-size: 1.125rem;
+  color: #666666;
+}
+.section-still-not-lucky .container .email .title-email h3 {
+  font-family: RobotoBold;
+  font-size: 0.75rem;
+  color: #ff4363;
+  padding-right: 10rem;
+}
+.section-still-not-lucky .container .email .title-email p {
+  font-family: RobotoBold;
+  font-size: 0.875rem;
+  color: #050605;
+  padding-right: 5rem;
+}
+.section-still-not-lucky .container .email .title-email hr {
+  width: 15%;
+  margin: auto;
+}
+.section-still-not-lucky .container .btn a {
+  font-family: Roboto-Medium;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #ff4363;
+  padding: 15px 27px;
+  border-radius: 35px;
+  text-decoration: none;
+}
+.section-still-not-lucky .container .btn a:hover {
+  color: #ffffff;
+  background-color: #6f42c1;
+}
+.section-still-not-lucky .container .btn a:focus {
+  color: #ffffff;
+  background-color: #d63384;
+}
+.section-still-not-lucky .container .btn a:active {
+  color: #ffffff;
+  background-color: #dc3545;
+}
+footer {
+  background-color: #000000;
+  padding: 1rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+footer .row h1 {
+  font-family: Roboto-Medium;
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+footer .row h2 {
+  font-family: PoppinsBlack;
+  font-size: 1.875rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+footer .row h3 {
+  font-family: Roboto-Medium;
+  font-size: 1.125rem;
+  color: #ffffff;
+}

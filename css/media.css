@@ -1,0 +1,289 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  body {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-firstsection .section-download .container .row .col h1 {
+    font-size: 3rem;
+  }
+  .nav-firstsection .section-download .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .nav-firstsection .section-download .container .row .col .img {
+    margin-top: 3rem;
+  }
+  .section-designed-perfect .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-designed-perfect .container .row .col .title-designed-perfect h1 {
+    font-size: 2.75rem;
+  }
+  .section-appfeatures .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-getyourapp .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-getyourapp {
+    background: url(../img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+  }
+  .section-qestion .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .carousel-indicators {
+    top: 13rem;
+  }
+  .carousel-control-prev {
+    left: -1rem;
+  }
+  .carousel-control-next {
+    right: -1rem;
+  }
+  .carusel-items .container .top-row p {
+    font-family: RobotoBold;
+    font-size: 1.75rem;
+    color: #ffffff;
+  }
+  .carusel-items .container .bottom-row p {
+    font-family: PoppinsRegular;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .section-still-not-lucky .container .email .title-email h3 {
+    font-family: RobotoBold;
+    font-size: 0.75rem;
+    color: #ff4363;
+    padding-right: 9rem;
+  }
+  .section-still-not-lucky .container .email .title-email p {
+    font-family: RobotoBold;
+    font-size: 0.875rem;
+    color: #050605;
+    padding-right: 4rem;
+  }
+  .section-still-not-lucky .container .email .title-email hr {
+    width: 35%;
+    margin: auto;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-firstsection .section-download .container .row .col h1 {
+    font-family: RobotoBold;
+    font-size: 4rem;
+    color: #ffffff;
+  }
+  .nav-firstsection .section-download .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .nav-firstsection .section-download .container .row .col .img {
+    margin-top: 3rem;
+  }
+  .section-designed-perfect .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-designed-perfect .container .row .col .title-designed-perfect h1 {
+    font-size: 2.99rem;
+  }
+  .section-appfeatures .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-getyourapp .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-getyourapp {
+    background: url(../img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+  }
+  .section-qestion .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .carousel-inner {
+    background-color: #ff4363;
+    height: 15rem;
+    width: 40rem;
+    margin-left: -4rem;
+  }
+  .carousel-indicators {
+    top: 13rem;
+  }
+  .carousel-control-prev {
+    left: -5rem;
+  }
+  .carousel-control-next {
+    right: -5rem;
+  }
+  .carusel-items .container .top-row p {
+    font-family: RobotoBold;
+    font-size: 1.75rem;
+    color: #ffffff;
+  }
+  .carusel-items .container .bottom-row p {
+    font-family: PoppinsRegular;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .section-still-not-lucky .container .email .title-email h3 {
+    font-family: RobotoBold;
+    font-size: 0.75rem;
+    color: #ff4363;
+    padding-right: 9rem;
+  }
+  .section-still-not-lucky .container .email .title-email p {
+    font-family: RobotoBold;
+    font-size: 0.875rem;
+    color: #050605;
+    padding-right: 4rem;
+  }
+  .section-still-not-lucky .container .email .title-email hr {
+    width: 38%;
+    margin: auto;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-firstsection .section-download .container .row .col h1 {
+    font-family: RobotoBold;
+    font-size: 4.5rem;
+    color: #ffffff;
+  }
+  .nav-firstsection .section-download .container .row .col {
+    text-align: start;
+    align-items: flex-start;
+  }
+  .nav-firstsection .section-download .container .row .col .img {
+    margin-top: 1rem;
+    margin-left: 6rem;
+  }
+  .section-designed-perfect .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-designed-perfect .container .row .col .title-designed-perfect h1 {
+    font-size: 3.75rem;
+  }
+  .section-appfeatures .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-getyourapp .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .section-getyourapp {
+    background: url(../img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+  }
+  .section-qestion .container .row .col {
+    text-align: center;
+    align-items: center;
+  }
+  .carousel-inner {
+    background-color: #ff4363;
+    height: 15rem;
+    width: 51rem;
+    margin-left: -4rem;
+  }
+  .carousel-indicators {
+    top: 13rem;
+  }
+  .carousel-control-prev {
+    left: -5rem;
+  }
+  .carousel-control-next {
+    right: -5rem;
+  }
+  .carusel-items .container .top-row p {
+    font-family: RobotoBold;
+    font-size: 1.75rem;
+    color: #ffffff;
+  }
+  .carusel-items .container .bottom-row p {
+    font-family: PoppinsRegular;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  .section-still-not-lucky .container .email .title-email h3 {
+    font-family: RobotoBold;
+    font-size: 0.75rem;
+    color: #ff4363;
+    padding-right: 9rem;
+  }
+  .section-still-not-lucky .container .email .title-email p {
+    font-family: RobotoBold;
+    font-size: 0.875rem;
+    color: #050605;
+    padding-right: 4rem;
+  }
+  .section-still-not-lucky .container .email .title-email hr {
+    width: 25%;
+    margin: auto;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-firstsection .section-download .container .row .col .img {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5rem;
+  }
+  .section-getyourapp {
+    background: url(../img/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+  }
+  .section-still-not-lucky .container .email .title-email h3 {
+    font-family: RobotoBold;
+    font-size: 0.75rem;
+    color: #ff4363;
+    padding-right: 9rem;
+  }
+  .section-still-not-lucky .container .email .title-email p {
+    font-family: RobotoBold;
+    font-size: 0.875rem;
+    color: #050605;
+    padding-right: 4rem;
+  }
+  .section-still-not-lucky .container .email .title-email hr {
+    width: 21%;
+    margin: auto;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
